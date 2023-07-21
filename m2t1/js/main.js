@@ -24,3 +24,6 @@ propsItemsTwo[8].after(propsItemsTwo[9]);
 const header3 = document.querySelector('li.item_three h2');
 header3.after(propsLists[4]);
 header5.after(propsLists[3]);
+
+const ads = document.querySelector('.ads');
+ads.remove();
